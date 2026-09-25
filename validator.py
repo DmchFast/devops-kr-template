@@ -4,3 +4,4 @@ def validate_email(email: str) -> bool:
 def validate_phone(phone: str) -> bool:
     # TODO: add proper regexp
     return len(phone) == 11 and phone.startswith("8")
+# INN validation stub
